@@ -3,3 +3,5 @@ content/themes/composer*
 node_modules
 /vendor
 .vagrant
+/content/upgrade
+/content/debug.log
