@@ -1,0 +1,26 @@
+{
+    "name": "crockett95/wordpress-dev-setup",
+    "description": "A setup for Wordpress dev, leveraging Git submodules, Composer, WP-Packagist, Vagrant, and all the other goodies I can pack in",
+    "license": "GPL2+",
+    "authors": [
+        {
+            "name": "Stephen Crockett",
+            "email": "crockett95@gmail.com"
+        }
+    ],
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"http://wpackagist.org"
+        }
+    ],
+    "extra": {
+        "installer-paths": {
+            "plugins/composer-{$name}/": ["type:wordpress-plugin"],
+            "content/themes/composer-{$name}/": ["type:wordpress-theme"]
+        }
+    },
+    "require": {
+        "wpackagist-theme/twentytwelve": "*"
+    }
+}

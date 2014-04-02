@@ -1,0 +1,5 @@
+plugins/composer*
+content/themes/composer*
+node_modules
+/vendor
+.vagrant
