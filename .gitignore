@@ -5,3 +5,4 @@ node_modules
 .vagrant
 /content/upgrade
 /content/debug.log
+/db/latest*.php
