@@ -19,10 +19,10 @@
 define('DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'wordpress');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'password');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -88,7 +88,7 @@ define( 'WP_DEBUG_DISPLAY', false );
  * The value defined is the address where your WordPress core files reside. 
  * It should include the http:// part too. Do not put a slash "/" at the end.
  */
-define( 'WP_SITEURL', 'http://wordpress-app.192.168.1.69.xip.io:8888/core' );
+define( 'WP_SITEURL', 'http://wordpress.192.168.33.10.xip.io/core' );
 
 /**
  * WordPress Blog URL
@@ -97,7 +97,7 @@ define( 'WP_SITEURL', 'http://wordpress-app.192.168.1.69.xip.io:8888/core' );
  * WordPress blog. It should include the http:// part and should not have a
  * slash "/" at the end.
  */
-define( 'WP_HOME', 'http://wordpress-app.192.168.1.69.xip.io:8888' );
+define( 'WP_HOME', 'http://wordpress.192.168.33.10.xip.io' );
 
 /**
  * Define the new `wp-content` directories
@@ -108,7 +108,7 @@ define( 'WP_HOME', 'http://wordpress-app.192.168.1.69.xip.io:8888' );
  * path of this directory (no trailing slash)
  */
 define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/content' );
-define( 'WP_CONTENT_URL', 'http://wordpress-app.192.168.1.69.xip.io:8888/content' );
+define( 'WP_CONTENT_URL', 'http://wordpress.192.168.33.10.xip.io/content' );
 
 /**
  * Define the new Plugins directories
@@ -119,14 +119,14 @@ define( 'WP_CONTENT_URL', 'http://wordpress-app.192.168.1.69.xip.io:8888/content
  * path of this directory (no trailing slash)
  */
 define( 'WP_PLUGIN_DIR', dirname(__FILE__) . '/plugins' );
-define( 'WP_PLUGIN_URL', 'http://wordpress-app.192.168.1.69.xip.io:8888/plugins' );
+define( 'WP_PLUGIN_URL', 'http://wordpress.192.168.33.10.xip.io/plugins' );
 define( 'PLUGINDIR', dirname(__FILE__) . '/plugins' );
 
 /**
  * Define the new MU Plugins directories
  */
 define( 'WPMU_PLUGIN_DIR', dirname(__FILE__) . '/required-plugins' );
-define( 'WPMU_PLUGIN_URL', 'http://wordpress-app.192.168.1.69.xip.io:8888/required-plugins' );
+define( 'WPMU_PLUGIN_URL', 'http://wordpress.192.168.33.10.xip.io/required-plugins' );
 define( 'MUPLUGINDIR', dirname(__FILE__) . '/required-plugins' );
 
 /**
@@ -141,7 +141,7 @@ define( 'UPLOADS', '/../uploads' );
  * Used as the default theme when installing new sites.
  * Will be used as the fallback if the current theme doesn't exist.
  */
-define( 'WP_DEFAULT_THEME', 'twentytwelve' );
+define( 'WP_DEFAULT_THEME', 'composer-twentytwelve' );
 
 /* That's all, stop editing! Happy blogging. */
 
